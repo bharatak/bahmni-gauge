@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/bash
 nohup Xvfb :99 -screen 0 1024x768x24 &
 export DISPLAY=:99
 mvn clean install
-cd bahmni-gauge-default/ && mvn install -Denv=qa04 -Dtags=sanity1
+echo "The env is $ENV and tags are $TAGS"
+# cd bahmni-gauge-default/ && mvn install -Denv=$ENV -Dtags=$TAGS
