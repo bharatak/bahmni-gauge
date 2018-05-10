@@ -3,7 +3,7 @@ Admin Activities
      
 Order Set - Add
 ---------------
-Tags: regression, sanity
+Tags: regression, sanity,sanity1
 * On the login page
 * Login to the application
 * Click on admin app
